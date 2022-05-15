@@ -29,7 +29,7 @@ public class TickedController {
     }
 
     /**
-     * 根据book 获取Reviwe内容
+     * 根据book 获取Reviwe内容  ====
      * @return API response json
      */
     @GetMapping(value = "/api/addTicked")

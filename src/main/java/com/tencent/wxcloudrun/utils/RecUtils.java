@@ -18,8 +18,10 @@ public class RecUtils {
     private RecUtils(){}
 
     public static String getAccessToken() throws Exception{
-        String apiKey = "hBItPGRD2OGAWDaKXHIAhS9n";
-        String secret = "LvDM8aKWtwGzndS9R4dCmSbWl0IFVawD";
+        //String apiKey = "hBItPGRD2OGAWDaKXHIAhS9n";
+		String apiKey = "9SIwi1CHPnZolGrLXfmXX6ME";
+        //String secret = "LvDM8aKWtwGzndS9R4dCmSbWl0IFVawD";
+		String secret = "apSwzXexMydUV26StdMvelglRFSZqlob";
         return getAuth(apiKey, secret);
     }
         /**
